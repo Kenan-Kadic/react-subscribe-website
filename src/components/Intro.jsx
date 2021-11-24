@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components';
+import Man from '../image/man.png';
 
 const Container = styled.div`
   height: calc(100vh - 50px);
@@ -64,7 +65,9 @@ const Right = styled.div`
     width: 40%;
 `;
 
-
+const Image = styled.img`
+    width: 100%;
+    `
 
 const Intro = () => {
     return (
@@ -82,7 +85,7 @@ const Intro = () => {
                     </Contact>
                 </Info>
             </Left>
-            <Right>Right</Right>
+            <Right><Image src={Man}></Image></Right>
         </Container>
     );        
 };

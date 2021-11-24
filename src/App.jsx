@@ -3,7 +3,8 @@ import Navbar from "./components/Navbar";
 import Intro from "./components/Intro";
 
 const Container = styled.div`
-    height: 100vh;    
+    height: 100vh; 
+    overflow: hidden;   
 `
 
 
