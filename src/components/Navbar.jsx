@@ -5,12 +5,17 @@ const Container = styled.div`
 `
 const Wrapper = styled.div`
     padding: 10px 20px;
+    display:flex;
+    justify-content:space-between;
 `
 
 const Navbar = () => {
     return (
         <Container>
-            navbar
+            <Wrapper>
+            <span>logo</span>
+            <span>button</span>
+            </Wrapper>
         </Container>
     )
 }
