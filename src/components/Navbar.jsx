@@ -20,7 +20,7 @@ const Left = styled.div`
 
 const Logo = styled.h1`
   font-weight: bold;
-  text-decoration: underline crimson;
+  text-decoration: underline #b3d9ff;
 `;
 
 const Menu = styled.ul`
@@ -41,7 +41,7 @@ const MenuItem = styled.li`
 const Button = styled.button`
   border: 2px solid white;
   padding: 10px 15px;
-  background-color: crimson;
+  background-color: #0000ff;
   color: white;
   font-weight: bold;
   border-radius: 10px;
@@ -53,7 +53,7 @@ const Navbar = () => {
       <Container>
         <Wrapper>
           <Left>
-            <Logo>Agency</Logo>
+            <Logo>Developer</Logo>
             <Menu>
               <MenuItem>Home</MenuItem>
               <MenuItem>Features</MenuItem>
@@ -62,7 +62,7 @@ const Navbar = () => {
               <MenuItem>Contact</MenuItem>
             </Menu>
           </Left>
-          <Button>JOIN TODAY</Button>
+          <Button>JOIN NOW</Button>
         </Wrapper>
       </Container>
     );

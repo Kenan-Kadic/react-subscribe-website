@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components';
 import Man from '../image/man.png';
+import AnimatedShapes from './AnimatedShapes';
 
 const Container = styled.div`
   height: calc(100vh - 50px);
@@ -37,7 +38,7 @@ const Info = styled.div`
 
 const Button = styled.button`
     padding: 15px;
-    background-color: darkblue;
+    background-color: #0000ff;
     color: white;
     border-radius: 10px;
     font-weight: bold;
@@ -73,19 +74,20 @@ const Intro = () => {
     return (
         <Container>
             <Left>
-                <Title>Adventures in creative age</Title>
-                <Desc> We believe that designing products and services in close partnership 
-                with our clients is the only way to have a real impact on their business.
+                <Title>Design with a human touch</Title>
+                <Desc> A strategic approach to website design and development that meets 
+                       all our clients needs and helps their business thrive in all circumstances.
                 </Desc>
                 <Info>
-                    <Button>START A PROJECT</Button>
+                    <Button>BEGIN A PROJECT</Button>
                     <Contact>
-                        <Phone>Call our company at (012) 345 9876</Phone>
-                        <ContactText>For any questions or concerns</ContactText>
+                        <Phone>Call our company at (314) 345 9876</Phone>
+                        <ContactText>for any questions or concerns</ContactText>
                     </Contact>
                 </Info>
             </Left>
             <Right><Image src={Man}></Image></Right>
+            <AnimatedShapes/>
         </Container>
     );        
 };
