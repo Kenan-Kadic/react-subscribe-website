@@ -38,7 +38,7 @@ const Circle = styled.div`
 const Rect = styled.div`
   width: 50px;
   height: 100px;
-  background-color: pink;
+  background-color: green;
   opacity: 0.5;
   position: absolute;
   top: 400px;
