@@ -1,34 +1,44 @@
-import React from 'react'
-import styled from 'styled-components';
-import App from '../image/app.png';
-import AnimatedShapes from './AnimatedShapes';
+import React from "react";
+import styled from "styled-components";
+import App from "../img/app.png";
+import AnimatedShapes from "./AnimatedShapes";
 
 const Container = styled.div`
   display: flex;
-
+  // @media only screen and (max-width: 480px) {
+  //   flex-direction: column;
+  //   padding: 30px 20px;
+  // }
 `;
 
 const Left = styled.div`
   width: 50%;
-
+  // @media only screen and (max-width: 480px) {
+  //   display: none;
+  // }
 `;
 
 const Image = styled.img`
   width: 80%;
-  margin-top: 30%;
 `;
 
 const Right = styled.div`
   width: 50%;
   display: flex;
   flex-direction: column;
+  align-items:center;
   justify-content: center;
-
+  margin-top: 2.5%;
+  // @media only screen and (max-width: 480px) {
+  //   width: 100%;
+  // }
 `;
 
 const Title = styled.span`
   font-size: 70px;
-
+  // @media only screen and (max-width: 480px) {
+  //   font-size: 50px;
+  // }
 `;
 
 const SubTitle = styled.span`
@@ -48,7 +58,7 @@ const Button = styled.button`
   width: 150px;
   border: none;
   padding: 15px 20px;
-  background-color: crimson;
+  background-color: darkblue;
   color: white;
   font-size: 20px;
   border-radius: 20px;
@@ -75,7 +85,7 @@ const Feature = () => {
           marketing goals, and look fantastic.
         </Desc>
         <Desc>
-          We care your business and guarantee you to achieve marketing goals.
+          We care about your business and guarantee you will achieve your marketing goals.
         </Desc>
         <Button>Learn More</Button>
       </Right>

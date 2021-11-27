@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components';
-import Man from '../image/man.png';
+import Man from '../img/man.png';
 import AnimatedShapes from './AnimatedShapes';
 
 const Container = styled.div`
@@ -81,8 +81,8 @@ const Intro = () => {
                 <Info>
                     <Button>BEGIN A PROJECT</Button>
                     <Contact>
-                        <Phone>Call our company at (314) 345 9876</Phone>
-                        <ContactText>for any questions or concerns</ContactText>
+                        <Phone>Call our company at (314) 123-9876</Phone>
+                        <ContactText>For any questions or concerns</ContactText>
                     </Contact>
                 </Info>
             </Left>
