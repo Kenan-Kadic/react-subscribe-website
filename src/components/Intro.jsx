@@ -67,8 +67,10 @@ const Right = styled.div`
 `;
 
 const Image = styled.img`
-    width: 100%;
-    `
+    width: 50%;
+    position: absolute;
+    bottom: 0px;
+    `;
 
 const Intro = () => {
     return (
