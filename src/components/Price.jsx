@@ -5,6 +5,7 @@ import PriceCard from './PriceCard';
 const Container = styled.div`   
     height: 100%;
     display: flex;
+    align-items: center;
     justify-content: center;
 
 `;
@@ -12,9 +13,9 @@ const Container = styled.div`
 const Price = () => {
     return (
         <Container>
-            <PriceCard/>
-            <PriceCard/>
-            <PriceCard/>
+            <PriceCard price="10" type="Basic"/>
+            <PriceCard price= "20" type="Premium"/>
+            <PriceCard price= "30" type="Advanced"/>
         </Container>
     )
 }
