@@ -45,6 +45,7 @@ const Rect = styled.div`
   left: -50px;
   z-index: -1;
   animation: rect 25s linear alternate infinite;
+  
   @keyframes rect {
     to {
       transform: translate(100vw, -50vh);

@@ -8,6 +8,9 @@ const Container = styled.div`
     align-items: center;
     justify-content: center;
 
+    @media only screen and (max-width: 480px) {
+        flex-direction: column;
+      }
 `;
 
 const Price = () => {
