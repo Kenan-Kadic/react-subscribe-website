@@ -3,6 +3,9 @@ import styled from "styled-components";
 import Map from "../img/map.png";
 import Phone from "../img/phone.png";
 import Send from "../img/send.png";
+import { Link } from "react-router-dom";
+
+{/* <Link className="link" style={{color:"black"}} to="/contact">Contact</Link> */}
 
 const Container = styled.div`
   height: 90%;
