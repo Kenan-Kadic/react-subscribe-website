@@ -48,34 +48,7 @@ const List = styled.ul`
     list-style: none;
 
 `;
-const ListItemTempletes = styled.li`
-    margin: 30px 0;
-
-    @media only screen and (max-width: 480px) {
-        margin: 10px;
-        font-size: 12px;
-      }
-
-`;
-const ListItemSupport = styled.li`
-    margin: 30px 0;
-
-    @media only screen and (max-width: 480px) {
-        margin: 10px;
-        font-size: 12px;
-      }
-
-`;
-const ListItemWebsites = styled.li`
-    margin: 30px 0;
-
-    @media only screen and (max-width: 480px) {
-        margin: 10px;
-        font-size: 12px;
-      }
-
-`;
-const ListItemPlugins = styled.li`
+const ListItem = styled.li`
     margin: 30px 0;
 
     @media only screen and (max-width: 480px) {
@@ -108,10 +81,10 @@ const PriceCard = ({price, type, templetes, support, websites , plugins}) => {
             </PriceContainer>
                 <Type>{type} Plan</Type>
                 <List>
-                    <ListItemTempletes>{templetes}</ListItemTempletes>
-                    <ListItemSupport>{support}</ListItemSupport>
-                    <ListItemWebsites>{websites}</ListItemWebsites>
-                    <ListItemPlugins>{plugins}</ListItemPlugins>{" "}
+                    <ListItem>{templetes}</ListItem>
+                    <ListItem>{support}</ListItem>
+                    <ListItem>{websites}</ListItem>
+                    <ListItem>{plugins}</ListItem>{" "}
                 </List>
                 <Button> Join Now</Button>
             
