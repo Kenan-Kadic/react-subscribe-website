@@ -1,5 +1,4 @@
 import styled, { css } from "styled-components";
-import Navbar from "./components/Navbar";
 import Intro from "./components/Intro";
 import Feature from "./components/Feature";
 import Service from "./components/Service";
