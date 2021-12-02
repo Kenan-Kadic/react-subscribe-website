@@ -109,7 +109,7 @@ const Intro = () => {
         <Container>
             <Left>
                 <Title>Design with a human touch</Title>
-                <Desc> A strategic approach to website design and development that meets 
+                <Desc> A strategic approach to design and development that meets 
                        all our clients needs and helps their business thrive in all circumstances.
                 </Desc>
                 <Info>
