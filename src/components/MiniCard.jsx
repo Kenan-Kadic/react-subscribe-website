@@ -29,12 +29,12 @@ const Text = styled.span`
 
 
 
-const MiniCard = () => {
+const MiniCard = ({cardText}) => {
     return (
         <div>
             <Container>
                 <Image src = {Search}/>
-                <Text>Search Terms</Text>
+                <Text>{cardText}</Text>
             </Container>
         </div>
     )

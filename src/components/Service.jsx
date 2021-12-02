@@ -132,9 +132,9 @@ const Service = () => {
             with you, not for you. Although we have a great resources
           </Desc>
           <CardContainer>
-            <MiniCard />
-            <MiniCard />
-            <MiniCard />
+            <MiniCard cardText="Search Designs"/>
+            <MiniCard cardText="Search Templetes"/>
+            <MiniCard cardText="Search Websites"/>
           </CardContainer>
           <Button onClick={() => setOpen(true)}>
             <Icon src={Play} />
