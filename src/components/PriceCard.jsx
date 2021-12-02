@@ -48,7 +48,34 @@ const List = styled.ul`
     list-style: none;
 
 `;
-const ListItem = styled.li`
+const ListItemTempletes = styled.li`
+    margin: 30px 0;
+
+    @media only screen and (max-width: 480px) {
+        margin: 10px;
+        font-size: 12px;
+      }
+
+`;
+const ListItemSupport = styled.li`
+    margin: 30px 0;
+
+    @media only screen and (max-width: 480px) {
+        margin: 10px;
+        font-size: 12px;
+      }
+
+`;
+const ListItemWebsites = styled.li`
+    margin: 30px 0;
+
+    @media only screen and (max-width: 480px) {
+        margin: 10px;
+        font-size: 12px;
+      }
+
+`;
+const ListItemPlugins = styled.li`
     margin: 30px 0;
 
     @media only screen and (max-width: 480px) {
@@ -73,7 +100,7 @@ const Button = styled.button`
       }
 `;
 
-const PriceCard = ({price, type}) => {
+const PriceCard = ({price, type, templetes, support, websites , plugins}) => {
     return (
         <Container>
             <PriceContainer>
@@ -81,10 +108,10 @@ const PriceCard = ({price, type}) => {
             </PriceContainer>
                 <Type>{type} Plan</Type>
                 <List>
-                    <ListItem>200 Hand-Crafed Templetes</ListItem>
-                    <ListItem>Exclusive Support</ListItem>
-                    <ListItem>50+ PreBuilt Websites</ListItem>
-                    <ListItem>Premium Plugins</ListItem>{" "}
+                    <ListItemTempletes>{templetes}</ListItemTempletes>
+                    <ListItemSupport>{support}</ListItemSupport>
+                    <ListItemWebsites>{websites}</ListItemWebsites>
+                    <ListItemPlugins>{plugins}</ListItemPlugins>{" "}
                 </List>
                 <Button> Join Now</Button>
             
