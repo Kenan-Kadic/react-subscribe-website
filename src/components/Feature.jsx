@@ -21,16 +21,14 @@ const Left = styled.div`
 const Image = styled.img`
   width: 45%;
   position: absolute;
-
+  bottom: 0px;
 `;
 
 const Right = styled.div`
   width: 50%;
   display: flex;
   flex-direction: column;
-  align-items:center;
   justify-content: center;
-  margin-top: 2.5%;
   @media only screen and (max-width: 480px) {
     width: 100%;
   }
@@ -38,6 +36,7 @@ const Right = styled.div`
 
 const Title = styled.span`
   font-size: 70px;
+  margin-left: 15%;
   @media only screen and (max-width: 480px) {
     font-size: 50px;
   }
