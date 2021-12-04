@@ -19,9 +19,9 @@ const Left = styled.div`
 `;
 
 const Image = styled.img`
-  width: 50%;
+  width: 45%;
   position: absolute;
-  bottom: 0px;
+
 `;
 
 const Right = styled.div`
